@@ -62,6 +62,4 @@ docker run -it -p 9999:9999 proxy-service
 Product
 ```
 docker run -it -p 8080:8080 product-service -e --spring.cloud.config.uri=http://172.17.0.2:8888
-docker run -it -p 8081:8081 product-service -e --spring.cloud.config.uri=http://172.17.0.2:8888
-docker run -it -p 8082:8082 product-service -e --spring.cloud.config.uri=http://172.17.0.2:8888
 ```
